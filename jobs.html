@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job Portal</title>
+    <title>Jobs - Job Portal</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">JobPortal</div>
+            <div class="logo"><a href="index.html">JobPortal</a></div>
             <ul>
-                <li><a href="jobs.html">Home</a></li>
-                <li><a href="job_details.html">Jobs</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
                 <li><a href="companies.html">Companies</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -24,33 +24,19 @@
         </nav>
     </header>
 
-    <section class="hero">
-        <h1>Find Your Dream Job</h1>
-        <p>Explore thousands of job opportunities in various fields.</p>
-        <form action="#" class="search-form">
-            <input type="text" placeholder="Job title, keywords, or company">
-            <input type="text" placeholder="Location">
-            <button type="submit">Search</button>
-        </form>
-    </section>
-
     <section class="jobs">
-        <h2>Latest Jobs</h2>
+        <h2>All Job Listings</h2>
         <div class="job-listings">
+            <!-- Job listings should be populated here -->
             <div class="job-item">
-                <h3>Software Engineer</h3>
+                <h3><a href="job_details.html?job_id=1">Software Engineer</a></h3>
                 <p>XYZ Company - San Francisco, CA</p>
-                <a href="#">View Details</a>
+                <a href="job_details.html?job_id=1">View Details</a>
             </div>
             <div class="job-item">
-                <h3>Frontend Developer</h3>
+                <h3><a href="job_details.html?job_id=2">Frontend Developer</a></h3>
                 <p>ABC Corp - New York, NY</p>
-                <a href="#">View Details</a>
-            </div>
-            <div class="job-item">
-                <h3>Data Scientist</h3>
-                <p>Data Inc - Seattle, WA</p>
-                <a href="#">View Details</a>
+                <a href="job_details.html?job_id=2">View Details</a>
             </div>
             <!-- Add more job items as needed -->
         </div>
